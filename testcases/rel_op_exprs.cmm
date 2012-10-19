@@ -1,9 +1,9 @@
 int f(void){
-  return  1 ==  4;
-  return  4 !=  9;
-  return  9 >= 16;
-  return 16 >  25;
-  return 25 <= 36;
-  return 36 <  49;
+  if ( 1 ==  4) return 0;
+  if ( 4 !=  9) return 0;
+  if ( 9 >= 16) return 0;
+  if (16 >  25) return 0;
+  if (25 <= 36) return 0;
+  if (36 <  49) return 0;
 }
 

@@ -1,0 +1,10 @@
+char g(void);
+int f(void) {
+  return 'a';
+}
+
+char g(void) {
+  return 97;
+  return 'a';
+  return 97;
+}

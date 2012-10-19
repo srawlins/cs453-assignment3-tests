@@ -1,0 +1,11 @@
+void f(void) {
+  return 0;
+}
+void g(void) {
+  return;
+}
+void h(void) {
+  return 'a';
+  return;
+  return 'A';
+}

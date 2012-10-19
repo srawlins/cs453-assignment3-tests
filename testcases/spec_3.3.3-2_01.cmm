@@ -1,0 +1,3 @@
+int f(void) { return 1; }
+char g(void);
+char g(void) { return 'a'; }
