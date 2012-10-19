@@ -71,7 +71,7 @@ test_stdout () {
 
 test_error_lines () {
   #if diff <($program < ${test_file} 2>&1 >/dev/null |sed 's/^\([0-9]\+\).*/\1/;s/.*[^0-9]\([0-9]\+\).*/\1/') ${expected_errors_file} >/dev/null
-  if diff <($program < ${test_file} 2>&1 >/dev/null |sed 's/^\([0-9]\+\).*/\1/;s/[^0-9]\+\([0-9]\+\).*/\1/') ${expected_errors_file} >/dev/null
+  if diff <($program < ${test_file} 2>&1 >/dev/null |sed 's/^\([0-9]\+\).*/\1/;s/[^0-9]\+\([0-9]\+\).*/\1/' |uniq) ${expected_errors_file} >/dev/null
   then
     let success_count++
     echo -en "\033[32m.\033[0m"
@@ -82,7 +82,7 @@ test_error_lines () {
     space_out_verbose_file
     echo -e "\033[31mFAILURE ${failure_count}:\033[0m ${test_name}" >> $verbose_file
     echo "    The expected error lines file, \"${expected_errors_file}\" does not match \`$program < ${test_file} 2>&1 >/dev/null\`:" >> $verbose_file
-    diff <($program < ${test_file} 2>&1 >/dev/null |sed 's/^\([0-9]\+\).*/\1/;s/.*[^0-9]\([0-9]\+\).*/\1/') ${expected_errors_file} 2>&1 |sed 's/^/    /' >> $verbose_file
+    diff <($program < ${test_file} 2>&1 >/dev/null |sed 's/^\([0-9]\+\).*/\1/;s/[^0-9]\+\([0-9]\+\).*/\1/' |uniq) ${expected_errors_file} 2>&1 |sed 's/^/    /' >> $verbose_file
   fi
 }
 
