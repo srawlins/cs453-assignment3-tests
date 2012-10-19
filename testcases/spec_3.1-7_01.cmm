@@ -1,0 +1,8 @@
+int f();
+int f() { return 0; }
+
+int g(void);
+int g(void) { return 1; }
+
+int h(int a, void);
+int i(void, int b) { return 0; }
