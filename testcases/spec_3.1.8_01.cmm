@@ -1,0 +1,10 @@
+int f(void);
+
+extern int ff(void), gg(void), hh(void);
+
+char g(void);
+
+int f(void) { return 0; }
+int gg(void) { return 22222222; }
+int hh(void) { return 7+7; }
+char g(void) { return 7-7; }

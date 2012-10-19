@@ -1,0 +1,9 @@
+int f(void);
+int g(void), h(void);
+
+int f(void) { return 0; }
+int g(void) { return 0; }
+
+int f(void) { return 0; }
+int h(void) { return 0; }
+int f(void) { return 0; }

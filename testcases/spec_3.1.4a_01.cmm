@@ -1,0 +1,7 @@
+int f(int a);
+int g(int a, int b);
+int h(int a, int b);
+
+int f(int a, int b) { return 0; }
+int g(int a, int b) { return 0; }
+int h(int a)        { return 0; }

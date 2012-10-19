@@ -1,0 +1,8 @@
+int f(void) {
+  return -1;
+  return -"foo";
+}
+
+int g(void) {
+  return (2==2) && (! 2);
+}

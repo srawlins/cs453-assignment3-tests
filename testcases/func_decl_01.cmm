@@ -1,0 +1,3 @@
+void f(void), g(void), h(int a);
+void i(int b);
+void g(void);

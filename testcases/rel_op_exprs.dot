@@ -1,0 +1,18 @@
+# 1==4!=9>=16>25<=36<49
+# Here's the badass dot file:
+graph g {
+n1 [label="!="];n1 -- n2;n2 [label="=="];n2 -- n3;n3 [label="1"];
+n2 -- n4;
+n4 [label="4"];
+n1 -- n5;
+n5 [label="<"];n5 -- n6;n6 [label="<="];n6 -- n7;n7 [label=">"];n7 -- n8;n8 [label=">="];n8 -- n9;n9 [label="9"];
+n8 -- n10;
+n10 [label="16"];
+n7 -- n11;
+n11 [label="25"];
+n6 -- n12;
+n12 [label="36"];
+n5 -- n13;
+n13 [label="49"];
+
+}
