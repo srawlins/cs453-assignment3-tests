@@ -1,0 +1,4 @@
+int f(void) {
+  return 2 + 2;
+  return 'a' + 'B';
+}
