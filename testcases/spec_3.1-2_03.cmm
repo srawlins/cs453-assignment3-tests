@@ -1,0 +1,9 @@
+int aaa;
+char bbb;
+int ccc;
+
+int f(void) {
+  int aaa;
+  int bbb;
+  return 0;
+}

@@ -1,0 +1,14 @@
+int a;
+
+void f(void) {;}
+void g(void) {
+  int a;
+}
+void h(void) {
+  int c;
+  int b;
+  int a;
+}
+void i(void) {
+  char a;
+}
