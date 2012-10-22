@@ -1,0 +1,8 @@
+int f(void) {
+  int a, b, c;
+
+  char b;
+  char d;
+  char a;
+  return 0;
+}
