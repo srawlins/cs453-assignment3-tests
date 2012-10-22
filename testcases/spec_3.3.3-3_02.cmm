@@ -1,0 +1,7 @@
+void f1(void) {
+  if (1==2) { return; }
+}
+
+void f(void) {
+  if (777) { return; }
+}
