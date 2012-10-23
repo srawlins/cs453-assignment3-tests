@@ -1,0 +1,7 @@
+int f(int a, char b) {
+  int x, y;
+  int z, a;
+
+  char b;
+  return 0;
+}

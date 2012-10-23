@@ -1,0 +1,5 @@
+int f(void);
+int g(void);
+int h(void), f(void);
+int h(void), f(int a);
+int g(int b);
