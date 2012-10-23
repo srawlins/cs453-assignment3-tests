@@ -5,7 +5,6 @@ test_all () {
   success_count=0
   failure_count=0
   error_count=0
-  echo "Testing Standard Out"
   for test_file in $(find testcases -name "*.cmm")  # $test_file is like testcases/foo.html
   do
     test_base=${test_file%.cmm}                  # like testcases/foo
