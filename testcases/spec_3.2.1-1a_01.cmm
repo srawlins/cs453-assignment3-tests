@@ -1,0 +1,10 @@
+void f(void), g(int a);
+int  h(void), i(int a);
+
+int j(void) {
+  f();
+  h();
+  g(0);
+  i(0);
+  return 0;
+}

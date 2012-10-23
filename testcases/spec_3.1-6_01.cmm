@@ -1,0 +1,6 @@
+int a, b;
+
+int f(char a[]) {
+  a[0] = 'A';
+  return 0;
+}
