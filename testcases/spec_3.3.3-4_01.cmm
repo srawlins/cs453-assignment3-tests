@@ -1,0 +1,19 @@
+void f(void), g(int a), h(char c[]);
+
+void f(void) {
+  f();
+  f(7);
+}
+
+void g(int a) {
+  g();
+  g(a);
+  g(7);
+}
+
+void h(char c[]) {
+  h();
+  h("Hello");
+  h(7);
+  h(c);
+}
