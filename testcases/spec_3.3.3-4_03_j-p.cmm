@@ -1,0 +1,13 @@
+void string(char notstring) { 
+	string("hi");
+}
+
+void int_array(int not_intarray) {
+	int x[10];
+	int_array(x);
+}
+
+void char_array(char not_chararray) {
+	char x[10];
+	char_array(x);
+}
