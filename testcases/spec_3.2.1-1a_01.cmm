@@ -6,6 +6,7 @@ int f(void) {
   if (h() == h());
   for (;h()==h(););
   a = h();
+  return h();
 
   if (g());
   for ( ; g() ; );
