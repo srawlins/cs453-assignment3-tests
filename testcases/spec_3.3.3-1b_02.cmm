@@ -1,0 +1,14 @@
+int f(void) {
+  int a[777];
+  char b[234];
+  char c[1];
+
+  a[0] = 7;
+  a[0] = 'A';
+  b = "There's a Snake in my Boots!";
+  b[0] = 'W';
+  c = "10 letters";
+  c[0] =  "No good";
+
+  return a[0];
+}

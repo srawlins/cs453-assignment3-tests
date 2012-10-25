@@ -1,0 +1,10 @@
+int f(void) {
+  int a;
+  char b;
+  a = 1;
+  b = 'A';
+  a = 'A';
+  b = 0;
+  a = "I don't think so!";
+  return a;
+}
