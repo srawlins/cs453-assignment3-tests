@@ -3,11 +3,9 @@ int f(void) {
   char b[234];
   char c[1];
 
-  a[0] = 7;
-  a[0] = 'A';
+  a = "a whole bunch of ints? no!";
   b = "There's a Snake in my Boots!";
-  b[0] = 'W';
-  c[0] =  "No good";
+  c = "No good";
 
   return a[0];
 }

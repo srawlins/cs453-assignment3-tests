@@ -1,0 +1,3 @@
+void fun(char i) {
+  fun("hi");
+}

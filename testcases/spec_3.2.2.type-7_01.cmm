@@ -1,11 +1,8 @@
-int f(void) {
-  char s[1];
-  s = "hello there!!!";
+int f(char s[]) {
   return s[0];
 }
 
 char g(void) {
   char s[100];
-  s = "hideho!!!";
   return s[0];
 }
